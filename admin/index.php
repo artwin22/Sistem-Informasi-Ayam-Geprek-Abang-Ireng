@@ -3,7 +3,6 @@ include 'header.php';
 ?>
 
 <?php
-$aVar = mysqli_connect("localhost", "root", "","kios");
 $a = mysqli_query($aVar,"select * from barang_laku");
 ?>
 

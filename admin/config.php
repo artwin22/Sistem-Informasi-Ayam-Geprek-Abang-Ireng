@@ -1,3 +1,3 @@
 <?php 
-mysqli_connect("localhost", "root", "", "kios");
+$aVar = mysqli_connect("localhost","root","","kios");
 ?>

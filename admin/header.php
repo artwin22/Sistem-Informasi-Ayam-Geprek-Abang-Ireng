@@ -45,8 +45,8 @@
 				</div>
 				<div class="modal-body">
 					<?php 
-					$periksa=mysql_query("select * from barang where jumlah <=3");
-					while($q=mysql_fetch_array($periksa)){	
+					$periksa=mysqli_query($aVar,"select * from barang where jumlah <=3");
+					while($q=mysqli_fetch_array($periksa)){	
 						if($q['jumlah']<=3){			
 							echo "<div style='padding:5px' class='alert alert-warning'><span class='glyphicon glyphicon-info-sign'></span> Stok  <a style='color:red'>". $q['nama']."</a> yang tersisa sudah kurang dari 3 . silahkan pesan lagi !!</div>";	
 						}
@@ -65,8 +65,8 @@
 		<div class="row">
 			<?php 
 			$use=$_SESSION['uname'];
-			$fo=mysql_query("select foto from admin where uname='$use'");
-			while($f=mysql_fetch_array($fo)){
+			$fo=mysqli_query($aVar,"select foto from admin where uname='$use'");
+			while($f=mysqli_fetch_array($fo)){
 				?>				
 
 				<div class="col-xs-6 col-md-12">
