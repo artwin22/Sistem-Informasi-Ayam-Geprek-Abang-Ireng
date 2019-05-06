@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>KIOS MALASNGODING</title>
+	<title>Ayam Geprek Abang Ireng</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/js/jquery-ui/jquery-ui.css">
 	<script type="text/javascript" src="assets/js/jquery.js"></script>
@@ -30,7 +30,7 @@
 		<div class="panel panel-default">
 			<form action="login_act.php" method="post">
 				<div class="col-md-4 col-md-offset-4 kotak">
-					<h3>Silahkan Login ..</h3>
+					<h3>Silahkan Login</h3>
 					<div class="input-group">
 						<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
 						<input type="text" class="form-control" placeholder="Username" name="uname">

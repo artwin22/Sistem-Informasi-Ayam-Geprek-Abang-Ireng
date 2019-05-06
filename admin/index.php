@@ -7,9 +7,9 @@ $a = mysql_query("select * from barang_laku");
 ?>
 
 <div class="col-md-10">
-	<h3>Selamat datang</h3>	
-    <h3>Aplikasi Penjualan Sederhana</h3>
-    <h3>WWW.MALASNGODING.COM</h3>
+	<center><h3>Selamat Datang</h3></center>
+    <h3>Aplikasi Penjualan QR Code Ayam Geprek Abang Ireng</h3>
+    <h3>www.geprekabangireng.com</h3>
 </div>
 <!-- kalender -->
 <div class="pull-right">
@@ -18,5 +18,4 @@ $a = mysql_query("select * from barang_laku");
 
 <?php 
 include 'footer.php';
-
 ?>
