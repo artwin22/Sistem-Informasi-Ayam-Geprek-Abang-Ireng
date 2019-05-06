@@ -1,3 +1,4 @@
 <?php 
-$aVar = mysqli_connect("localhost","root","","kios");
+mysql_connect("localhost","root","");
+mysql_select_db("kios");
 ?>

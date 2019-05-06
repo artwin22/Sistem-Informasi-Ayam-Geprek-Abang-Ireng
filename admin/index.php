@@ -3,7 +3,7 @@ include 'header.php';
 ?>
 
 <?php
-$a = mysqli_query($aVar,"select * from barang_laku");
+$a = mysql_query("select * from barang_laku");
 ?>
 
 <div class="col-md-10">
