@@ -1,9 +1,5 @@
 <?php 
-include 'header.php';
-?>
-
-<?php
-$a = mysql_query("select * from barang_laku");
+include 'header2.php';
 ?>
 
 <div class="col-md-10">
