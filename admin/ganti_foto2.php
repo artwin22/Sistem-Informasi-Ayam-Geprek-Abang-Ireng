@@ -4,6 +4,7 @@ include 'header2.php';
 
 <h3><span class="glyphicon glyphicon-picture"></span>  Ganti Foto</h3>
 <br/><br/>
+
 <?php 
 if(isset($_GET['pesan'])){
 	$pesan=mysql_real_escape_string($_GET['pesan']);

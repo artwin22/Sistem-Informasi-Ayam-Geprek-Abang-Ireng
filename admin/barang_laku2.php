@@ -1,6 +1,16 @@
 <?php include 'header2.php';	?>
 
 <h3><span class="glyphicon glyphicon-briefcase"></span>  Order Ayam Geprek Abang Ireng</h3>
+
+<?php 
+if(isset($_GET['pesan'])){
+	$pesan=mysql_real_escape_string($_GET['pesan']);
+	if($pesan=="oke"){
+		echo "<div class='alert alert-success'>Pesanan berhasil di order.</div>";
+	}
+}
+?>
+
 <button style="margin-bottom:20px" data-toggle="modal" data-target="#myModal" class="btn btn-info col-md-2"><span class="glyphicon glyphicon-pencil"></span>  Entry</button>
 <form action="" method="get">
 	<div class="input-group col-md-5 col-md-offset-7">
@@ -36,10 +46,7 @@
 							</select>
 
 						</div>									
-						<div class="form-group">
-							<label>Harga Jual / unit</label>
-							<input name="harga" type="text" class="form-control" placeholder="Harga" autocomplete="off">
-						</div>	
+							
 						<div class="form-group">
 							<label>Jumlah</label>
 							<input name="jumlah" type="text" class="form-control" placeholder="Jumlah" autocomplete="off">
