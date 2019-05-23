@@ -18,7 +18,7 @@
 	<div class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="http://www.malasngoding.com" class="navbar-brand">Ayam Geprek Abang Ireng</a>
+				<a href="http://192.168.173.1/ayamgeprekabangireng.com/" class="navbar-brand">Ayam Geprek Abang Ireng</a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>

@@ -36,7 +36,7 @@ if(isset($_GET['pesan'])){
 							<label>Nama Barang</label>								
 							<select class="form-control" name="nama">
 								<?php 
-								$brg=mysql_query("select * from barang");
+								$brg=mysql_query("select * FROM barang ORDER BY jenis");
 								while($b=mysql_fetch_array($brg)){
 									?>	
 									<option value="<?php echo $b['nama']; ?>"><?php echo $b['nama'] ?></option>
