@@ -25,7 +25,7 @@ while($q=mysql_fetch_array($periksa)){
 }
 ?>
 <?php 
-$per_hal=10;
+$per_hal=15;
 $jumlah_record=mysql_query("SELECT COUNT(*) from barang");
 $jum=mysql_result($jumlah_record, 0);
 $halaman=ceil($jum / $per_hal);
@@ -34,8 +34,7 @@ $start = ($page - 1) * $per_hal;
 ?>
 <form action="cari_act.php" method="get">
 	<div class="input-group col-md-5 col-md-offset-7">
-		<span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-search"></span></span>
-		<input type="text" class="form-control" placeholder="Cari barang di sini .." aria-describedby="basic-addon1" name="cari">	
+		
 	</div>
 </form>
 <br/>
